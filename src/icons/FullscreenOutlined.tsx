@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FullscreenOutlinedSvg from '@ant-design/icons-svg/lib/asn/FullscreenOutlined';
+import { FullscreenOutlined as FullscreenOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FullscreenOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CiOutlinedSvg from '@ant-design/icons-svg/lib/asn/CiOutlined';
+import { CiOutlined as CiOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CiOutlined(props: AntdIconProps) {

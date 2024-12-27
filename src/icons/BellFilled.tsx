@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BellFilledSvg from '@ant-design/icons-svg/lib/asn/BellFilled';
+import { BellFilled as BellFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BellFilled(props: AntdIconProps) {

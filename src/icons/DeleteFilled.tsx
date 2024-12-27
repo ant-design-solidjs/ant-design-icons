@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DeleteFilledSvg from '@ant-design/icons-svg/lib/asn/DeleteFilled';
+import { DeleteFilled as DeleteFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DeleteFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CalendarOutlinedSvg from '@ant-design/icons-svg/lib/asn/CalendarOutlined';
+import { CalendarOutlined as CalendarOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CalendarOutlined(props: AntdIconProps) {

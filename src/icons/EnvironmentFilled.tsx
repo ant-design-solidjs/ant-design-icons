@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import EnvironmentFilledSvg from '@ant-design/icons-svg/lib/asn/EnvironmentFilled';
+import { EnvironmentFilled as EnvironmentFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function EnvironmentFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import GifOutlinedSvg from '@ant-design/icons-svg/lib/asn/GifOutlined';
+import { GifOutlined as GifOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function GifOutlined(props: AntdIconProps) {

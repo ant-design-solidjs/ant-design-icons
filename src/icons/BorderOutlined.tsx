@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BorderOutlinedSvg from '@ant-design/icons-svg/lib/asn/BorderOutlined';
+import { BorderOutlined as BorderOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BorderOutlined(props: AntdIconProps) {

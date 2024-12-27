@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import RubyOutlinedSvg from '@ant-design/icons-svg/lib/asn/RubyOutlined';
+import { RubyOutlined as RubyOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function RubyOutlined(props: AntdIconProps) {

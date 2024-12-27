@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import WarningFilledSvg from '@ant-design/icons-svg/lib/asn/WarningFilled';
+import { WarningFilled as WarningFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function WarningFilled(props: AntdIconProps) {

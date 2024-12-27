@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import HeartOutlinedSvg from '@ant-design/icons-svg/lib/asn/HeartOutlined';
+import { HeartOutlined as HeartOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function HeartOutlined(props: AntdIconProps) {

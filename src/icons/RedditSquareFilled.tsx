@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import RedditSquareFilledSvg from '@ant-design/icons-svg/lib/asn/RedditSquareFilled';
+import { RedditSquareFilled as RedditSquareFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function RedditSquareFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import AliwangwangFilledSvg from '@ant-design/icons-svg/lib/asn/AliwangwangFilled';
+import { AliwangwangFilled as AliwangwangFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function AliwangwangFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import PicRightOutlinedSvg from '@ant-design/icons-svg/lib/asn/PicRightOutlined';
+import { PicRightOutlined as PicRightOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function PicRightOutlined(props: AntdIconProps) {

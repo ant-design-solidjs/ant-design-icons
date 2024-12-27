@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FireFilledSvg from '@ant-design/icons-svg/lib/asn/FireFilled';
+import { FireFilled as FireFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FireFilled(props: AntdIconProps) {

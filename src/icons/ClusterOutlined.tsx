@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ClusterOutlinedSvg from '@ant-design/icons-svg/lib/asn/ClusterOutlined';
+import { ClusterOutlined as ClusterOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ClusterOutlined(props: AntdIconProps) {

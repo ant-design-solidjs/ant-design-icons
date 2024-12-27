@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SpotifyOutlinedSvg from '@ant-design/icons-svg/lib/asn/SpotifyOutlined';
+import { SpotifyOutlined as SpotifyOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SpotifyOutlined(props: AntdIconProps) {

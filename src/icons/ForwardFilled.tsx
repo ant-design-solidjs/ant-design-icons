@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ForwardFilledSvg from '@ant-design/icons-svg/lib/asn/ForwardFilled';
+import { ForwardFilled as ForwardFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ForwardFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ApiFilledSvg from '@ant-design/icons-svg/lib/asn/ApiFilled';
+import { ApiFilled as ApiFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ApiFilled(props: AntdIconProps) {

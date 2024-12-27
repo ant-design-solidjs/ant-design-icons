@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import GlobalOutlinedSvg from '@ant-design/icons-svg/lib/asn/GlobalOutlined';
+import { GlobalOutlined as GlobalOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function GlobalOutlined(props: AntdIconProps) {

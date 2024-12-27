@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FileUnknownFilledSvg from '@ant-design/icons-svg/lib/asn/FileUnknownFilled';
+import { FileUnknownFilled as FileUnknownFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FileUnknownFilled(props: AntdIconProps) {

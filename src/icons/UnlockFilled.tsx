@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import UnlockFilledSvg from '@ant-design/icons-svg/lib/asn/UnlockFilled';
+import { UnlockFilled as UnlockFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function UnlockFilled(props: AntdIconProps) {

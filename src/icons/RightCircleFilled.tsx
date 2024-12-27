@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import RightCircleFilledSvg from '@ant-design/icons-svg/lib/asn/RightCircleFilled';
+import { RightCircleFilled as RightCircleFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function RightCircleFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CarTwoToneSvg from '@ant-design/icons-svg/lib/asn/CarTwoTone';
+import { CarTwoTone as CarTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CarTwoTone(props: AntdIconProps) {

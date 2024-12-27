@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import Html5OutlinedSvg from '@ant-design/icons-svg/lib/asn/Html5Outlined';
+import { Html5Outlined as Html5OutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function Html5Outlined(props: AntdIconProps) {

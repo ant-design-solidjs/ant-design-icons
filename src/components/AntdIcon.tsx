@@ -4,7 +4,7 @@ import type { IconBaseProps } from './Icon'
 import type { TwoToneColor } from './twoTonePrimaryColor'
 import { blue } from '@ant-design/colors'
 
-import classNames from 'classnames'
+import classNames from 'clsx'
 import { splitProps, useContext } from 'solid-js'
 import { normalizeTwoToneColors } from '../utils'
 import Context from './Context'

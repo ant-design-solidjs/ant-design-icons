@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import HourglassOutlinedSvg from '@ant-design/icons-svg/lib/asn/HourglassOutlined';
+import { HourglassOutlined as HourglassOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function HourglassOutlined(props: AntdIconProps) {

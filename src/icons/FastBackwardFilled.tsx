@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FastBackwardFilledSvg from '@ant-design/icons-svg/lib/asn/FastBackwardFilled';
+import { FastBackwardFilled as FastBackwardFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FastBackwardFilled(props: AntdIconProps) {

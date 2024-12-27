@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import LockOutlinedSvg from '@ant-design/icons-svg/lib/asn/LockOutlined';
+import { LockOutlined as LockOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function LockOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import StepBackwardFilledSvg from '@ant-design/icons-svg/lib/asn/StepBackwardFilled';
+import { StepBackwardFilled as StepBackwardFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function StepBackwardFilled(props: AntdIconProps) {

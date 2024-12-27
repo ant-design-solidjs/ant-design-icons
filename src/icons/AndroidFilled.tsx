@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import AndroidFilledSvg from '@ant-design/icons-svg/lib/asn/AndroidFilled';
+import { AndroidFilled as AndroidFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function AndroidFilled(props: AntdIconProps) {

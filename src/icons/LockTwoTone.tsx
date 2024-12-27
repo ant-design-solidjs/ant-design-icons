@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import LockTwoToneSvg from '@ant-design/icons-svg/lib/asn/LockTwoTone';
+import { LockTwoTone as LockTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function LockTwoTone(props: AntdIconProps) {

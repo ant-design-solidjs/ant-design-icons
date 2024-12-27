@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import UpSquareFilledSvg from '@ant-design/icons-svg/lib/asn/UpSquareFilled';
+import { UpSquareFilled as UpSquareFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function UpSquareFilled(props: AntdIconProps) {

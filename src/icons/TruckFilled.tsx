@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import TruckFilledSvg from '@ant-design/icons-svg/lib/asn/TruckFilled';
+import { TruckFilled as TruckFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function TruckFilled(props: AntdIconProps) {

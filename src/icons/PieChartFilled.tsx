@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import PieChartFilledSvg from '@ant-design/icons-svg/lib/asn/PieChartFilled';
+import { PieChartFilled as PieChartFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function PieChartFilled(props: AntdIconProps) {

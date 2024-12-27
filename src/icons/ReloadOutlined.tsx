@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ReloadOutlinedSvg from '@ant-design/icons-svg/lib/asn/ReloadOutlined';
+import { ReloadOutlined as ReloadOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ReloadOutlined(props: AntdIconProps) {

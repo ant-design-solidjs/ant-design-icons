@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DiffFilledSvg from '@ant-design/icons-svg/lib/asn/DiffFilled';
+import { DiffFilled as DiffFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DiffFilled(props: AntdIconProps) {

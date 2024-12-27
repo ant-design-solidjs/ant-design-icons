@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import XFilledSvg from '@ant-design/icons-svg/lib/asn/XFilled';
+import { XFilled as XFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function XFilled(props: AntdIconProps) {

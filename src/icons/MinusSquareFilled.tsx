@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import MinusSquareFilledSvg from '@ant-design/icons-svg/lib/asn/MinusSquareFilled';
+import { MinusSquareFilled as MinusSquareFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function MinusSquareFilled(props: AntdIconProps) {

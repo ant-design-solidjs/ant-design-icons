@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BilibiliOutlinedSvg from '@ant-design/icons-svg/lib/asn/BilibiliOutlined';
+import { BilibiliOutlined as BilibiliOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BilibiliOutlined(props: AntdIconProps) {

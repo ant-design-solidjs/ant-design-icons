@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import PushpinTwoToneSvg from '@ant-design/icons-svg/lib/asn/PushpinTwoTone';
+import { PushpinTwoTone as PushpinTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function PushpinTwoTone(props: AntdIconProps) {

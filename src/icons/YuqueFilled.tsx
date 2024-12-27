@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import YuqueFilledSvg from '@ant-design/icons-svg/lib/asn/YuqueFilled';
+import { YuqueFilled as YuqueFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function YuqueFilled(props: AntdIconProps) {

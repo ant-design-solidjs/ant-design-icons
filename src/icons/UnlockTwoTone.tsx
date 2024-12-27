@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import UnlockTwoToneSvg from '@ant-design/icons-svg/lib/asn/UnlockTwoTone';
+import { UnlockTwoTone as UnlockTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function UnlockTwoTone(props: AntdIconProps) {

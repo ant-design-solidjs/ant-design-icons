@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DropboxOutlinedSvg from '@ant-design/icons-svg/lib/asn/DropboxOutlined';
+import { DropboxOutlined as DropboxOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DropboxOutlined(props: AntdIconProps) {

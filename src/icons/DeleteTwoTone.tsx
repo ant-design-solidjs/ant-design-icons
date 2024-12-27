@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DeleteTwoToneSvg from '@ant-design/icons-svg/lib/asn/DeleteTwoTone';
+import { DeleteTwoTone as DeleteTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DeleteTwoTone(props: AntdIconProps) {

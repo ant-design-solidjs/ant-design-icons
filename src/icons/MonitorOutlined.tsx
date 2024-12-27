@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import MonitorOutlinedSvg from '@ant-design/icons-svg/lib/asn/MonitorOutlined';
+import { MonitorOutlined as MonitorOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function MonitorOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ChromeFilledSvg from '@ant-design/icons-svg/lib/asn/ChromeFilled';
+import { ChromeFilled as ChromeFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ChromeFilled(props: AntdIconProps) {

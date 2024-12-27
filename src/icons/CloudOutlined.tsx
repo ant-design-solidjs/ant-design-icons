@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CloudOutlinedSvg from '@ant-design/icons-svg/lib/asn/CloudOutlined';
+import { CloudOutlined as CloudOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CloudOutlined(props: AntdIconProps) {

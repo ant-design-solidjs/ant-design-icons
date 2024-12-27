@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import GroupOutlinedSvg from '@ant-design/icons-svg/lib/asn/GroupOutlined';
+import { GroupOutlined as GroupOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function GroupOutlined(props: AntdIconProps) {

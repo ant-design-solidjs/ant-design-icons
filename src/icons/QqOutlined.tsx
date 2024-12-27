@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import QqOutlinedSvg from '@ant-design/icons-svg/lib/asn/QqOutlined';
+import { QqOutlined as QqOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function QqOutlined(props: AntdIconProps) {

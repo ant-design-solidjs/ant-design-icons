@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import EyeFilledSvg from '@ant-design/icons-svg/lib/asn/EyeFilled';
+import { EyeFilled as EyeFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function EyeFilled(props: AntdIconProps) {

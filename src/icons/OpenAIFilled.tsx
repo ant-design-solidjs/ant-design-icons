@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import OpenAIFilledSvg from '@ant-design/icons-svg/lib/asn/OpenAIFilled';
+import { OpenAIFilled as OpenAIFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function OpenAIFilled(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import LogoutOutlinedSvg from '@ant-design/icons-svg/lib/asn/LogoutOutlined';
+import { LogoutOutlined as LogoutOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function LogoutOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CalendarTwoToneSvg from '@ant-design/icons-svg/lib/asn/CalendarTwoTone';
+import { CalendarTwoTone as CalendarTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CalendarTwoTone(props: AntdIconProps) {

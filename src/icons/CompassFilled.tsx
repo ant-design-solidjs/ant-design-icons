@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CompassFilledSvg from '@ant-design/icons-svg/lib/asn/CompassFilled';
+import { CompassFilled as CompassFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CompassFilled(props: AntdIconProps) {

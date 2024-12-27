@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import StopOutlinedSvg from '@ant-design/icons-svg/lib/asn/StopOutlined';
+import { StopOutlined as StopOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function StopOutlined(props: AntdIconProps) {

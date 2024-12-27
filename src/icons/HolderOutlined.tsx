@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import HolderOutlinedSvg from '@ant-design/icons-svg/lib/asn/HolderOutlined';
+import { HolderOutlined as HolderOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function HolderOutlined(props: AntdIconProps) {

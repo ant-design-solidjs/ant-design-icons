@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CloudFilledSvg from '@ant-design/icons-svg/lib/asn/CloudFilled';
+import { CloudFilled as CloudFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CloudFilled(props: AntdIconProps) {

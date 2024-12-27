@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SlackSquareFilledSvg from '@ant-design/icons-svg/lib/asn/SlackSquareFilled';
+import { SlackSquareFilled as SlackSquareFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SlackSquareFilled(props: AntdIconProps) {

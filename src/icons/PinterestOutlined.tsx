@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import PinterestOutlinedSvg from '@ant-design/icons-svg/lib/asn/PinterestOutlined';
+import { PinterestOutlined as PinterestOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function PinterestOutlined(props: AntdIconProps) {

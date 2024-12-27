@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BackwardOutlinedSvg from '@ant-design/icons-svg/lib/asn/BackwardOutlined';
+import { BackwardOutlined as BackwardOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BackwardOutlined(props: AntdIconProps) {

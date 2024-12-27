@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DislikeFilledSvg from '@ant-design/icons-svg/lib/asn/DislikeFilled';
+import { DislikeFilled as DislikeFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DislikeFilled(props: AntdIconProps) {

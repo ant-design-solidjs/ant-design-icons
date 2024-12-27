@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CaretLeftFilledSvg from '@ant-design/icons-svg/lib/asn/CaretLeftFilled';
+import { CaretLeftFilled as CaretLeftFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CaretLeftFilled(props: AntdIconProps) {

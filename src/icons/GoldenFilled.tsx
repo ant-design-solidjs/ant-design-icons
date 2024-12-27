@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import GoldenFilledSvg from '@ant-design/icons-svg/lib/asn/GoldenFilled';
+import { GoldenFilled as GoldenFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function GoldenFilled(props: AntdIconProps) {

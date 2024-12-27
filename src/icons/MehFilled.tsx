@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import MehFilledSvg from '@ant-design/icons-svg/lib/asn/MehFilled';
+import { MehFilled as MehFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function MehFilled(props: AntdIconProps) {

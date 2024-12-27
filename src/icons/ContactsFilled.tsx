@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ContactsFilledSvg from '@ant-design/icons-svg/lib/asn/ContactsFilled';
+import { ContactsFilled as ContactsFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ContactsFilled(props: AntdIconProps) {

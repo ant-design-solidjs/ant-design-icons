@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ApiOutlinedSvg from '@ant-design/icons-svg/lib/asn/ApiOutlined';
+import { ApiOutlined as ApiOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ApiOutlined(props: AntdIconProps) {

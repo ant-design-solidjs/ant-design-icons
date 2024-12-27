@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CaretUpFilledSvg from '@ant-design/icons-svg/lib/asn/CaretUpFilled';
+import { CaretUpFilled as CaretUpFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CaretUpFilled(props: AntdIconProps) {

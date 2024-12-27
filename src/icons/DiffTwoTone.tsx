@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DiffTwoToneSvg from '@ant-design/icons-svg/lib/asn/DiffTwoTone';
+import { DiffTwoTone as DiffTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DiffTwoTone(props: AntdIconProps) {

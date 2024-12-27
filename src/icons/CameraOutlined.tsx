@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import CameraOutlinedSvg from '@ant-design/icons-svg/lib/asn/CameraOutlined';
+import { CameraOutlined as CameraOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function CameraOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import ScissorOutlinedSvg from '@ant-design/icons-svg/lib/asn/ScissorOutlined';
+import { ScissorOutlined as ScissorOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function ScissorOutlined(props: AntdIconProps) {

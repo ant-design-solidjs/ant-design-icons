@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FireTwoToneSvg from '@ant-design/icons-svg/lib/asn/FireTwoTone';
+import { FireTwoTone as FireTwoToneSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FireTwoTone(props: AntdIconProps) {

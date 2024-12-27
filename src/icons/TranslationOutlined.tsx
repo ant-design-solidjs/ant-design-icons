@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import TranslationOutlinedSvg from '@ant-design/icons-svg/lib/asn/TranslationOutlined';
+import { TranslationOutlined as TranslationOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function TranslationOutlined(props: AntdIconProps) {

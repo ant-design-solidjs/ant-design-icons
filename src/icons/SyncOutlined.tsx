@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SyncOutlinedSvg from '@ant-design/icons-svg/lib/asn/SyncOutlined';
+import { SyncOutlined as SyncOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SyncOutlined(props: AntdIconProps) {

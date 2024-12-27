@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import RobotOutlinedSvg from '@ant-design/icons-svg/lib/asn/RobotOutlined';
+import { RobotOutlined as RobotOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function RobotOutlined(props: AntdIconProps) {

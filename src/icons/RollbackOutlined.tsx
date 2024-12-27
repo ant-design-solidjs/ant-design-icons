@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import RollbackOutlinedSvg from '@ant-design/icons-svg/lib/asn/RollbackOutlined';
+import { RollbackOutlined as RollbackOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function RollbackOutlined(props: AntdIconProps) {

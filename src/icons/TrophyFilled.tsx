@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import TrophyFilledSvg from '@ant-design/icons-svg/lib/asn/TrophyFilled';
+import { TrophyFilled as TrophyFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function TrophyFilled(props: AntdIconProps) {

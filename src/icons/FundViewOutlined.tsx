@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import FundViewOutlinedSvg from '@ant-design/icons-svg/lib/asn/FundViewOutlined';
+import { FundViewOutlined as FundViewOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function FundViewOutlined(props: AntdIconProps) {

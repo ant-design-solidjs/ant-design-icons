@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SwitcherFilledSvg from '@ant-design/icons-svg/lib/asn/SwitcherFilled';
+import { SwitcherFilled as SwitcherFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SwitcherFilled(props: AntdIconProps) {

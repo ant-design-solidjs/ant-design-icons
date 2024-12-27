@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import DatabaseFilledSvg from '@ant-design/icons-svg/lib/asn/DatabaseFilled';
+import { DatabaseFilled as DatabaseFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function DatabaseFilled(props: AntdIconProps) {

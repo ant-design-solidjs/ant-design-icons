@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import WechatOutlinedSvg from '@ant-design/icons-svg/lib/asn/WechatOutlined';
+import { WechatOutlined as WechatOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function WechatOutlined(props: AntdIconProps) {

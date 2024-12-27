@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BoxPlotFilledSvg from '@ant-design/icons-svg/lib/asn/BoxPlotFilled';
+import { BoxPlotFilled as BoxPlotFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BoxPlotFilled(props: AntdIconProps) {

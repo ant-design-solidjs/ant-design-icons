@@ -90,7 +90,7 @@ async function generateIcons() {
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import <%= svgIdentifier %>Svg from '@ant-design/icons-svg/lib/asn/<%= svgIdentifier %>';
+import { <%= svgIdentifier %> as <%= svgIdentifier %>Svg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function <%= svgIdentifier %>(props: AntdIconProps) {

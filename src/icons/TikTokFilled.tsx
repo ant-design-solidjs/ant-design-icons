@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import TikTokFilledSvg from '@ant-design/icons-svg/lib/asn/TikTokFilled';
+import { TikTokFilled as TikTokFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function TikTokFilled(props: AntdIconProps) {

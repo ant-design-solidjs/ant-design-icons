@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import NumberOutlinedSvg from '@ant-design/icons-svg/lib/asn/NumberOutlined';
+import { NumberOutlined as NumberOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function NumberOutlined(props: AntdIconProps) {

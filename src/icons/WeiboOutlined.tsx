@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import WeiboOutlinedSvg from '@ant-design/icons-svg/lib/asn/WeiboOutlined';
+import { WeiboOutlined as WeiboOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function WeiboOutlined(props: AntdIconProps) {

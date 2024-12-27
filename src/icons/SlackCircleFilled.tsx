@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SlackCircleFilledSvg from '@ant-design/icons-svg/lib/asn/SlackCircleFilled';
+import { SlackCircleFilled as SlackCircleFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SlackCircleFilled(props: AntdIconProps) {

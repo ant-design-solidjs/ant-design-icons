@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import SignatureFilledSvg from '@ant-design/icons-svg/lib/asn/SignatureFilled';
+import { SignatureFilled as SignatureFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function SignatureFilled(props: AntdIconProps) {

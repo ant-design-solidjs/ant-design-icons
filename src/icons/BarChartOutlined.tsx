@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import BarChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/BarChartOutlined';
+import { BarChartOutlined as BarChartOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function BarChartOutlined(props: AntdIconProps) {

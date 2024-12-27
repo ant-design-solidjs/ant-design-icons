@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import AlipayOutlinedSvg from '@ant-design/icons-svg/lib/asn/AlipayOutlined';
+import { AlipayOutlined as AlipayOutlinedSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function AlipayOutlined(props: AntdIconProps) {

@@ -5,7 +5,7 @@
 
 import type { Component } from 'solid-js'
 import type { AntdIconProps } from '../components/AntdIcon'
-import WindowsFilledSvg from '@ant-design/icons-svg/lib/asn/WindowsFilled';
+import { WindowsFilled as WindowsFilledSvg } from '@ant-design/icons-svg';
 import AntdIcon from '../components/AntdIcon'
 
 function WindowsFilled(props: AntdIconProps) {
