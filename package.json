@@ -3,7 +3,9 @@
   "version": "0.0.0-beta.6",
   "repository": "https://github.com/ant-design-solidjs/ant-design-icons",
   "license": "MIT",
-  "contributors": ["zxdstyle<zxdstyle@foxmail.com>"],
+  "contributors": [
+    "zxdstyle<zxdstyle@foxmail.com>"
+  ],
   "sideEffects": false,
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -13,7 +15,7 @@
     "clean": "./scripts/cleanup.sh",
     "build": "tsup",
     "postcompile": "npm run clean && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
-    "generate": "rimraf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
+    "generate": "rimraf src/icons && cross-env NODE_NO_WARNINGS=1 node --loader ts-node/esm scripts/generate.ts --target=icon",
     "lint": "eslint src/ --ext .tsx,.ts",
     "prepublishOnly": "npm run generate && npm run compile && npm run lint && npm run test",
     "start": "dumi dev",
@@ -28,14 +30,14 @@
     "rc-util": "^5.31.1"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.136",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.10.2",
     "cross-env": "^5.2.0",
     "esbuild-plugin-solid": "^0.6.0",
     "glob": "^7.1.6",
     "history": "^4.9.0",
-    "lodash": "^4.17.21",
-    "pkg-dir": "4.0.0",
+    "lodash-es": "^4.17.21",
+    "pkg-dir": "^8.0.0",
     "rimraf": "^3.0.0",
     "solid-js": "^1.9.3",
     "ts-node": "^10.9.2",
