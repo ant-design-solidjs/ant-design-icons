@@ -1,9 +1,9 @@
+.storybook
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
 node_modules/
-**/*/node_modules
 
 # testing
 /coverage
@@ -17,15 +17,24 @@ node_modules/
 
 npm-debug.log*
 yarn-debug.log*
-lerna-debug.log
 yarn-error.log*
 
 # IDE
-.idea
+/.idea
+
+lib/
+es/
+dist/
+build/
 .vscode
 
-# lock
-package-lock.json
-**/*/package-lock.json
-yarn.lock
-**/*/yarn.lock
+# publish
+*.tgz
+
+/icons
+/*.js
+/*.d.ts
+!.eslintrc.js
+!.fatherrc.js
+!jest.config.js
+.umi
