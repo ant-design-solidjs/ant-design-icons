@@ -8,19 +8,24 @@
   ],
   "sideEffects": false,
   "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
-    "ci": "NODE_ENV=ci npm run prepublishOnly",
     "clean": "./scripts/cleanup.sh",
     "build": "tsup",
-    "postcompile": "npm run clean && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
-    "generate": "rimraf src/icons && cross-env NODE_NO_WARNINGS=1 node --loader ts-node/esm scripts/generate.ts --target=icon",
-    "lint": "eslint src/ --ext .tsx,.ts",
-    "prepublishOnly": "npm run generate && npm run compile && npm run lint && npm run test",
-    "start": "dumi dev",
-    "test": "rc-test",
-    "test:local": "npm run generate && npm run compile && npm run test"
+    "generate": "rimraf src/icons && cross-env NODE_NO_WARNINGS=1 node --loader ts-node/esm scripts/generate.ts --target=icon"
   },
   "dependencies": {
     "@ant-design/colors": "^7.0.0",
@@ -46,15 +51,5 @@
   },
   "peerDependencies": {
     "solid-js": ">=1.9.3"
-  },
-  "resolutions": {
-    "cheerio": "1.0.0-rc.12"
-  },
-  "engines": {
-    "node": ">=8"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
   }
 }
