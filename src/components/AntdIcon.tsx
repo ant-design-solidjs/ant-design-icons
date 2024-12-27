@@ -1,4 +1,4 @@
-import type { IconDefinition } from '@ant-design/icons-svg/lib/types'
+import type { IconDefinition } from '@ant-design/icons-svg/es/types'
 import type { Component } from 'solid-js'
 import type { IconBaseProps } from './Icon'
 import type { TwoToneColor } from './twoTonePrimaryColor'
